@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#content{
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 0px 5px 15px 1px #000000;
+}
+
+#headerContent {
+    background: #fff;
+    clear: both;
+    height: 100px;
+    width: 1000px;
+    background: #fff;
+}
+
+.authBlock {
+    float: right;
+    color: #66cccc;
+    margin: 10px;
+    background: #fff;
+}
+.photoBox {
+    width: 200px;
+    background: #bbb;
+    float: left;
+    box-shadow: 0px 0px 20px 1px #000;
+    margin: 20px;
+}
+
+.photoBoxImage {
+    width: 200px;
+    height: 200px;       
+}
+
+.photoBoxDescr {
+    height: 100px;
+    background: #fff;
+    overflow: hidden;
+    color: #66cccc;
+    padding: 5px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+#footer {
+    clear: both;
+}

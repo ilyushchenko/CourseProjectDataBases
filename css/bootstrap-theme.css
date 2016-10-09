@@ -1,0 +1,29 @@
+body{
+    background-image: url("../images/noisy_net.png");
+}
+
+
+#mainPicture {
+    background: url("../images/cover.jpg") no-repeat center;
+    height: 500px;
+    background-position: center;
+}
+
+.coverPictureAuthor {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.opacity {
+    background-color:rgba(0,0,0,.3);
+    height: 460px;
+    margin: 0px;
+    padding: 20px;
+}
+.opacity p {
+    font-size: 15px;
+    margin-left: 90px;
+}

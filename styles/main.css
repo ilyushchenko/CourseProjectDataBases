@@ -3,6 +3,8 @@
     margin: 0px;
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
 }
 body{
     /*background-image: url("../images/binding_dark.png");*/
@@ -30,16 +32,27 @@ input[type="text"]:focus {
   border: 1px solid #000000
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Секция Header */
 
 #headerContent {
     width: 100%;
-    height: 100px;
+    height: 200px;;
 }
 
+#login-content {
+    
+}
+
+#login-content form {
+    /*visibility: hidden;*/
+}
 .authBlock {
     float: right;
-    color: #66cccc;
+    /*color: #66cccc;*/
     margin: 10px;
 }
 
@@ -63,7 +76,6 @@ form input[type="submit"] {
 }
 .menuContent a{
     color: #fff;
-    text-decoration: none;
     text-transform: uppercase;
     margin-left: 15px;
     font-size: 25px;
@@ -118,29 +130,34 @@ form input[type="submit"] {
 
 /* Секция Photo content */
 
-/*#content{
-    margin: 0 auto;
-    width: 90%;;
-    background-color: #000;
-}*/
+#content{
+    
+}
 
 .photoBox {
-    width: 200px;
-    background: #bbb;
+    width: 300px;
+    height: 300px;
     float: left;
-    margin: 20px;
+    margin: 10px;
 }
 
 .photoBoxImage {
-    width: 200px;
-    height: 200px;       
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.photoBoxImage img {
+    height: 300px;
+    margin-left: -30%;
 }
 
 .photoBoxDescr {
-    height: 100px;
     overflow: hidden;
-    color: #ffffff;
+    position: relative;
     padding: 5px;
+    bottom: 110px;
+    height: 100px;
 }
 
 /* Other */
@@ -158,7 +175,15 @@ form input[type="submit"] {
 .border {
     border: 1px solid #cccccc;
 }
-
-#footer {
+.center {
+    margin: 0 auto;
+}
+footer {
+    padding: 20px;
+    width: 100%;
     clear: both;
+    border-top: 3px solid #76cfff;
+}
+footer a {
+    color: #fff;
 }

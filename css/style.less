@@ -1,3 +1,63 @@
-.font {
-    font-size: 20px;
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+*{
+    background: url("../images/noisy_net.png");
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link 
+{
+    text-decoration: none; 
+}
+
+/*Header*/
+
+header{
+        padding: 20px;
+    nav{
+        .current{
+            color: #76cfff;
+        }            
+        a{            
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-decoration: none;
+            &:hover{
+                color: #66cccc;
+            }
+        }
+    }
+    .logo{
+            width: 30px;
+            height: 30px;
+    }
+}
+
+/*Section Main Photo*/
+
+section#mainPhoto 
+{
+    .mainPhotoPH
+    {
+        background: url("../images/cover.jpg") no-repeat center center;
+        height: 700px;
+        width: 100%;
+        .overlayAuthor{
+            background: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            height: 100%;
+            padding: 50px;
+            p{
+                background: transparent;
+                color: #fff;
+                span{
+                    text-transform: uppercase;
+                    background: transparent;
+                }
+            }
+        }
+
+    }
 }

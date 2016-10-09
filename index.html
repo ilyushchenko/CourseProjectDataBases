@@ -2,34 +2,63 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-flex">
-        <nav class="menu-nav">
-          <a class="menu-nav-item active" href="#">Главная</a>
-          <a class="menu-nav-item" href="#">Галлерея</a>
-          <a class="menu-nav-item" href="#">ASDF</a>
-        </nav>
-        <div class="row">
-            <div id="mainPicture">     
-                <div class="coverPictureAuthor">
-                    <div class="opacity">
-                        <p>Author</p>
-                        <p>Pavel Ilyushchenko</p>
-                    </div>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">logo</div>
+                <div class="col-sm-6">
+                    <nav>
+                        <ul class="list-inline">
+                            <a href="#">
+                                <li>Главная</li>
+                            </a>
+                            <a href="#">
+                                <li>Галлерея</li>
+                            </a>
+                            <a href="#">
+                                <li>Категории</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-sm-4">
+                    <form action="">
+                        <input type="text">
+                        <input type="text">
+                        <button></button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="row">
-            
+    </header>
+
+    <section id="mainPhoto">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="overlay">
+                    <p>Author</p>
+                    <p>Pavel Ilyushchenko</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+    </section>
+
+    <section id="photoContent">
+        <div class="container-fluid">
+            <div class="row"></div>
+        </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
 </body>
 </html>

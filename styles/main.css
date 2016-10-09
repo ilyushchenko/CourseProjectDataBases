@@ -3,69 +3,14 @@
     margin: 0px;
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
 }
-#content{
-    margin: 0 auto;
-    width: 90%;;
-}
-
-#headerContent {
-    width: 100%;
-    height: 100px;
-    background: #fff;
-}
-
-.authBlock {
-    float: right;
-    color: #66cccc;
-    margin: 10px;
-    background: #fff;
-}
-.photoBox {
-    width: 200px;
-    background: #bbb;
-    float: left;
-    margin: 20px;
-}
-
-.photoBoxImage {
-    width: 200px;
-    height: 200px;       
-}
-
-.photoBoxDescr {
-    height: 100px;
-    background: #fff;
-    overflow: hidden;
-    color: #66cccc;
-    padding: 5px;
-}
-
-#footer {
-    clear: both;
-}
-
-.coverPictureAuthor {
-    position:relative;
-    top: 10px;
-    left: 10px;
-    color: #FFF;
-    font-size: 20px;
-}
-.shadow{
-    box-shadow: 0px 5px 15px 1px #000000;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#mainPicture {
-    background: url("../images/cover.jpg") no-repeat center;
-    height: 500px;
-    background-position: center;
+body{
+    /*background-image: url("../images/binding_dark.png");*/
+    /*background-image: url("../images/footer_lodyas.png");*/
+    background-image: url("../images/noisy_net.png");
+    
 }
 
 input [type="text"] {
@@ -86,21 +31,29 @@ input[type="text"]:focus {
   color: #000000;
   border: 1px solid #000000
 }
-.loginInput {
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+
+a {
+    text-decoration: none;
 }
 
-.authInputs {
-    margin-left: 0;
-    height: 30px;
-}
-.lblLogin {
-    background-image: url("../images/glyphicons-4-user.png") no-repeat center;
+/* Секция Header */
+
+#headerContent {
+    width: 100%;
+    height: 200px;;
 }
 
-.border {
-    border: 1px solid #cccccc;
+#login-content {
+    
+}
+
+#login-content form {
+    /*visibility: hidden;*/
+}
+.authBlock {
+    float: right;
+    /*color: #66cccc;*/
+    margin: 10px;
 }
 
 .authIcon {
@@ -114,4 +67,123 @@ form span {
 }
 form input[type="submit"] {
     float: right;
+}
+.menuContent {
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+}
+.menuContent a{
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.menuContent a:hover{
+    color: #66cccc;
+}
+.current {
+    color: #76cfff !important;
+}
+.loginInput {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.authInputs {
+    margin-left: 0;
+    height: 30px;
+}
+.lblLogin {
+    background-image: url("../images/glyphicons-4-user.png") no-repeat center;
+}
+
+/* Секция Main Picture */
+
+#mainPicture {
+    background: url("../images/cover.jpg") no-repeat center;
+    height: 500px;
+    background-position: center;
+}
+
+.coverPictureAuthor {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.opacity {
+    background-color:rgba(0,0,0,.3);
+    height: 460px;
+    margin: 0px;
+    padding: 20px;
+}
+.opacity p {
+    font-size: 15px;
+    margin-left: 90px;
+}
+
+
+
+/* Секция Photo content */
+
+#content{
+    
+}
+
+.photoBox {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.photoBoxImage {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.photoBoxImage img {
+    height: 300px;
+    margin-left: -30%;
+}
+
+.photoBoxDescr {
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+    bottom: 110px;
+    height: 100px;
+}
+
+/* Other */
+
+.shadow{
+    box-shadow: 0px 5px 15px 1px #000000;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.border {
+    border: 1px solid #cccccc;
+}
+.center {
+    margin: 0 auto;
+}
+footer {
+    padding: 20px;
+    width: 100%;
+    clear: both;
+    border-top: 3px solid #76cfff;
+}
+footer a {
+    color: #fff;
 }
